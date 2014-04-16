@@ -57,10 +57,12 @@ p.continue {
 }
 .firstletter {
 	float: left;
-	font-size: 3em;
+	font-size: 82px;
 	line-height: 1;
-	font-weight: bold;
-	margin-right: 0.2em;
+	font-family: 'Raleway', cursive;
+	font-weight: 500;
+	color: #dddddd;
+	margin-right: 10px;
 }
 ul {
 	font-family: Arial;
@@ -78,14 +80,27 @@ a {
 	text-decoration: underline;
 	padding: 5px 10px;
 }
+a.footer {
+	text-align: left;
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+	color: #f30000;
+	padding: 20px;
+	margin: 0;
+}
 a.top {
 	padding-left: 0;
 }
-
+a.footer-top {
+	text-align: left;
+	font-family: 'Raleway', cursive;
+	font-size: 14px;
+	color: #f30000;
+	padding-left: 0;
+}
 a:hover {
 	color: #00957b;
 }
-
 a:active {
 	color: yellow;
 }
