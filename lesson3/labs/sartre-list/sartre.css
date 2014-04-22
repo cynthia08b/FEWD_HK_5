@@ -65,18 +65,16 @@ ul {
 }
 img {
 	float: top;
-	padding: 5px;
+	padding: 10px 0;
 }
 a {
 	font-family: 'Raleway', cursive;
 	font-size: 18px;
 	font-weight: 300;
 	color: #dddddd;
-	text-decoration: underline;
 	padding: 5px 10px;
 }
 a.footer {
-	text-align: left;
 	font-family: 'Raleway', cursive;
 	font-size: 14px;
 	color: #f30000;
@@ -85,16 +83,15 @@ a.footer {
 }
 a.top {
 	padding-left: 0;
+	text-decoration: underline;
 }
 a.footer-top {
-	text-align: left;
 	font-family: 'Raleway', cursive;
 	font-size: 14px;
 	color: #f30000;
 	padding-left: 0;
 }
 .footer {
-	text-align: left;
 	font-family: 'Raleway', cursive;
 	font-size: 12px;
 	padding: 0;
@@ -103,9 +100,11 @@ a.footer-top {
 a.continue {
 	font-family: Arial;
 	font-size: 14px;
+	font-weight: bold;
 	color: red;
 	text-align: right;
-	font-weight: bold;
+	text-decoration: none;
+	padding-left: 0;
 }
 a:hover {
 	color: #00957b;
