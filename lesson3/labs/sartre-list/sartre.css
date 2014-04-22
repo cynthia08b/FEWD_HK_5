@@ -50,11 +50,6 @@ p {
 	font-family: Arial;
 	font-size: 14px
 }
-p.continue {
-	color: red;
-	text-align: right;
-	font-weight: bold;
-}
 .firstletter {
 	float: left;
 	font-size: 82px;
@@ -98,18 +93,25 @@ a.footer-top {
 	color: #f30000;
 	padding-left: 0;
 }
-a:hover {
-	color: #00957b;
-}
-a:active {
-	color: yellow;
-}
 .footer {
 	text-align: left;
 	font-family: 'Raleway', cursive;
 	font-size: 12px;
 	padding: 0;
 	margin: 0;
+}
+a.continue {
+	font-family: Arial;
+	font-size: 14px;
+	color: red;
+	text-align: right;
+	font-weight: bold;
+}
+a:hover {
+	color: #00957b;
+}
+a:active {
+	color: yellow;
 }
 hr {
 	border-color: white;
