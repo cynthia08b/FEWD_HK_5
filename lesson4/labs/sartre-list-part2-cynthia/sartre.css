@@ -1,26 +1,112 @@
 body {
-	background-color: white;
 	font-family: Arial;
-	width: 686px;
+	width: 1170px;
 	margin-top: 60px;
 	margin-left: 40px;
 }
+.row-left {
+	float: left;
+	padding-right: 20px;
+}
+.row-right {
+	float: left;
+	margin-top: 30px;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	display: block;
+}
 .top-menu {
-	text-align: left;
+	background-color: black;
+	font-family: 'Raleway', cursive;
+	color: white;
+}
+#nav {
+	background-color: black;
+	width: 100%;
+	float: left;
+}
+ul#navlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul#navlist li{
+	float: left;
+	position: relative;
+	padding: 20px 15px;
+	border-right: 1px solid white;
+}
+ul#popular-posts li{
+	font-family: Arial;
+	font-size: 14px;
+	color: #f30000;
+}
+ul#bottom-navlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul#bottom-navlist li{
+	float: left;
+	position: relative;
+	padding: 20px 15px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #f30000;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.article-wrapper {
+	width: 100%x;
+	padding: 0px;
+	margin: 0 auto;
+	display: block;
+}
+.article-columm1 {
+	display: block;
+	width: 70%;
+	margin-left: 0;
+	margin-top: 30px;
+	float: left;
 }
 .article {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	width: 100%;
+	margin-left: 0;
+	float: left;
 }
-header {
+.column-right1 {
+	display: block;
+	width: 25%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 2%;
+}
+.footer {
 	float: left;
 	width: 100%;
+	font-family: 'Raleway', cursive;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
 }
-main {
+.copyright {
+	width: 100%;
+	margin-left: 0;
 	float: left;
+}
+.bottom-menu {
+	width: 100%;
+	margin-left: 0;
+	float: left;
+	font-family: 'Raleway', cursive;
+	font-size: 12px;
+	color: black;
 }
 h1	{
-	float: left;
 	font-family: 'Raleway', cursive;
 	font-weight: 300;
 	font-size: 58px;
@@ -67,37 +153,10 @@ p {
 	color: #dddddd;
 	margin-right: 10px;
 }
-ul {
-	font-family: Arial;
-	font-size: 13px
-}
 img {
 	float: top;
+	width: 100%;
 	padding: 10px 0;
-}
-a {
-	font-family: 'Raleway', cursive;
-	font-size: 18px;
-	font-weight: 300;
-	color: #dddddd;
-	padding: 5px 10px;
-}
-a.footer {
-	font-family: 'Raleway', cursive;
-	font-size: 14px;
-	color: #f30000;
-	padding: 20px;
-	margin: 0;
-}
-a.top {
-	padding-left: 0;
-	text-decoration: underline;
-}
-a.footer-top {
-	font-family: 'Raleway', cursive;
-	font-size: 14px;
-	color: #f30000;
-	padding-left: 0;
 }
 a.continue {
 	font-family: Arial;
@@ -107,12 +166,6 @@ a.continue {
 	text-align: right;
 	text-decoration: none;
 	padding-left: 0;
-}
-.footer {
-	font-family: 'Raleway', cursive;
-	font-size: 12px;
-	padding: 0;
-	margin: 0;
 }
 a:hover {
 	color: #00957b;
@@ -124,6 +177,12 @@ hr {
 	border-color: white;
     height: 1px;
 }
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
 /* Clear fix hack */
 .clearfix:after {
   content: ".";
@@ -133,5 +192,3 @@ hr {
   line-height: 0;
   height: 0;
 }
-/*	</style>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400, 300, 500, 700' rel='stylesheet' type='text/css'>*/
