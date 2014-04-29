@@ -67,11 +67,16 @@ li.main-nav {
 	border-radius: 5px;
 	border-bottom: outset 4px yellow;
 }
+/* Try to fee if you can create some hover states
+ to make it behave even more like a button*/
 .button-bottom {
 	background-color: #c6c6c6;
 	padding: 10px 0px;
 	border-radius: 5px;
 	border-bottom: outset 4px #c6c6c6;
+}
+.button-bottom:hover {
+	
 }
 .bottom-header {
 	background-color: #c6c6c6;
@@ -79,27 +84,24 @@ li.main-nav {
 	padding-top: 30px;
 	height: 50px;
 }
+
 .bottom-menu {
 	float: left;
 	background-color: #f3f3f3;
 }
-.bottom-menu1 {
+/* Another way to solve this problem is like this*/
+
+.bottom-menu > div {
 	float: left;
 	border-right: 1px solid #d9d9d9;
 	padding: 20px;
 	width: 27%
 }
-.bottom-menu2 {
-	float: left;
-	border-right: 1px solid #d9d9d9;
-	padding: 20px;
-	width: 27%
+
+.bottom-menu > div:last-child {
+	border-right: none;
 }
-.bottom-menu3 {
-	float: left;
-	padding: 20px;
-	width: 27%
-}
+
 .footer {
 	float: left;
 	width: 100%;
